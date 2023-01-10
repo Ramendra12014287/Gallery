@@ -1,0 +1,44 @@
+.Header{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+}
+.auth{
+    display: flex;
+    flex-direction: row;
+}
+.auth img{
+    
+    height: 50px;
+    margin-right: 50px;
+}
+.auth button{
+    padding: 10px;
+    margin: 0px;
+    border: 0px ;
+    font-weight: bold;
+    background-color: beige;
+}
+.log img{
+    border-radius: 50%;
+}
+img{
+    height: 200px;
+}
+.Body{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+   
+}
+.Body img{
+    margin: 50px;
+}
+.footer{
+    padding: 10px 100px;
+    background-color: aliceblue;
+}
